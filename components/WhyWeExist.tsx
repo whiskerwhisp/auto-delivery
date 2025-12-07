@@ -7,17 +7,17 @@ export default function WhyWeExist() {
     {
       icon: Clock,
       title: "Express Delivery",
-      desc: "We ship to 10,000+ pin codes...",
+      desc: "Your emotions shouldn't wait. We ship to 10,000+ pin codes with fast, trackable delivery.",
     },
     {
       icon: Gift,
       title: "Customisable Hampers",
-      desc: "Mix sweets, dry fruits, notes...",
+      desc: "Mix sweets, dry fruits, and personalised notes. Create something uniquely yours.",
     },
     {
       icon: ShieldCheck,
       title: "Photo Confirmation",
-      desc: "Get a photo before delivery...",
+      desc: "See what they receive. Get a photo confirmation of your gift before delivery. No surprises.",
     },
   ];
 
