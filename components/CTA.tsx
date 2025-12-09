@@ -35,7 +35,7 @@ export default function CTA() {
 
               <input
                 type="tel"
-                placeholder="Mobile Number"
+                placeholder="Mobile Number (Optional)"
                 className="px-4 py-3 w-full text-sm"
               />
             </div>
