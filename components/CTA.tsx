@@ -19,28 +19,40 @@ export default function CTA() {
             <input
               type="email"
               placeholder="Email Address"
-              className="bg-white px-4 py-3 min-w-[220px] text-sm"
+              className="bg-white px-4 py-3 min-w-[220px] text-sm h-[48px]"
             />
 
-            <div className="flex bg-white">
-              <div className="relative border-r border-gray-200">
-                <select className="appearance-none pl-4 pr-8 py-3 text-sm font-bold">
-                  <option value="+91">🇮🇳 +91</option>
-                  <option value="+1">🇺🇸 +1</option>
-                  <option value="+44">🇬🇧 +44</option>
-                  <option value="+971">🇦🇪 +971</option>
-                </select>
-                <ChevronDown className="w-3 h-3 absolute right-2 top-1/2 -translate-y-1/2 text-stone-500" />
-              </div>
+            <div className="relative pb-8">
+              <div className="flex bg-white h-[48px]">
+                <div className="relative border-r border-gray-200">
+                  <select className="appearance-none pl-4 pr-8 py-3 text-sm font-bold h-full">
+                    <option value="+91">🇮🇳 +91</option>
+                    <option value="+1">🇺🇸 +1</option>
+                    <option value="+971">🇦🇪 +971</option>
+                    <option value="+44">🇬🇧 +44</option>
+                    <option value="+1">🇨🇦 +1</option>
+                    <option value="+61">🇦🇺 +61</option>
+                    <option value="+966">🇸🇦 +966</option>
+                    <option value="+65">🇸🇬 +65</option>
+                    <option value="+60">🇲🇾 +60</option>
+                    <option value="+965">🇰🇼 +965</option>
+                    <option value="+974">🇶🇦 +974</option>
+                    <option value="+968">🇴🇲 +968</option>
+                    <option value="+973">🇧🇭 +973</option>
+                  </select>
+                  <ChevronDown className="w-3 h-3 absolute right-2 top-1/2 -translate-y-1/2 text-stone-500 pointer-events-none" />
+                </div>
 
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="px-4 py-3 w-full text-sm"
-              />
+                <input
+                  type="tel"
+                  placeholder="Mobile Number"
+                  className="px-4 py-3 w-full text-sm h-full"
+                />
+              </div>
+              <span className="absolute -bottom-5 left-0 right-0 text-stone-400 text-xs text-center">(Optional)</span>
             </div>
 
-            <button className="bg-[#F3EDE7] text-[#2D2D2D] px-8 py-3 uppercase text-xs font-bold tracking-widest hover:bg-amber-100 transition-colors whitespace-nowrap shadow-[4px_4px_0px_0px_rgba(255,255,255,0.1)] hover:shadow-none hover:translate-x-0.5 hover:translate-y-0.5">
+            <button className="bg-[#F3EDE7] text-[#2D2D2D] px-8 py-3 uppercase text-xs font-bold tracking-widest hover:bg-amber-100 transition-colors whitespace-nowrap shadow-[4px_4px_0px_0px_rgba(255,255,255,0.1)] hover:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 h-[48px]">
               Join Waitlist
             </button>
           </div>

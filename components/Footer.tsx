@@ -16,11 +16,16 @@ export default function Footer() {
 
         <div className="flex flex-col gap-4 items-end w-full md:w-auto">
           <span className="uppercase text-xs tracking-widest text-stone-500">Stay Connected</span>
-          <div className="flex w-full md:w-80 border-b border-stone-700 pb-2">
-            <input type="email" placeholder="Email Address" className="bg-transparent w-full text-white" />
-            <button className="text-white uppercase text-xs font-bold">Join</button>
+          <div className="flex flex-col gap-3 w-full md:w-80">
+            <div className="flex border-b border-stone-700 pb-2">
+              <input type="email" placeholder="Email Address" className="bg-transparent w-full text-white" />
+              <button className="text-white uppercase text-xs font-bold">Join</button>
+            </div>
+            <div className="flex border-b border-stone-700 pb-2">
+              <input type="tel" placeholder="Phone Number (Optional)" className="bg-transparent w-full text-white text-sm" />
+            </div>
           </div>
-          <p className="text-[10px] uppercase tracking-widest mt-4 opacity-50">© 2025 Tyohar</p>
+          <p className="text-[10px] uppercase tracking-widest mt-4 opacity-50">© 2025 Devix</p>
         </div>
 
       </div>
