@@ -25,7 +25,7 @@ export default function Footer() {
               <input type="tel" placeholder="Phone Number (Optional)" className="bg-transparent w-full text-white text-sm" />
             </div>
           </div>
-          <p className="text-[10px] uppercase tracking-widest mt-4 opacity-50">© 2025 Tyohar</p>
+          <p className="text-[10px] uppercase tracking-widest mt-4 opacity-50">© 2025 Devix</p>
         </div>
 
       </div>
